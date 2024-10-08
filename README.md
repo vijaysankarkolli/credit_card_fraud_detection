@@ -39,7 +39,16 @@ Dropped some of the less important fields and computed fields like age from dob 
 
 ![Test scores](images/ModelTestScoreComparision.png)
 
+Ran different ensemble models and here are the final results
 
-### Next steps
+### Final score comparision
 
-Use ensemble techniques and evaluate other neural network models
+![Scores](images/FinalModelScoreComparision.png)
+
+It shows most of the ensemble models are performing better than the standard models. BalancedRandomForestClassifier is the bettter one compared to the other ensemble models.
+
+### BalancedRandomForestClassifier Model results
+
+Here are the results that are run on a test dataset which this model has never seen.
+
+![Results](images/BalancedRandomForestClassifier.png)
